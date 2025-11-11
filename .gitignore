@@ -1,0 +1,50 @@
+# === Java build artifacts ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Logs ===
+*.log
+
+# === Maven / Gradle build directories ===
+target/
+build/
+
+# === Test reports (JUnit, TestNG, Surefire, etc.) ===
+reports/
+test-output/
+surefire-reports/
+failsafe-reports/
+
+# === Selenium-specific outputs ===
+screenshots/
+allure-results/
+allure-report/
+extent-reports/
+cucumber-reports/
+
+# === Coverage tools ===
+coverage/
+jacoco.exec
+
+# === IDE settings ===
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# === OS-specific files ===
+.DS_Store        # macOS
+Thumbs.db        # Windows
