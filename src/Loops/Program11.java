@@ -1,0 +1,18 @@
+package Loops;
+
+public class Program11 {
+
+	public static void main(String[] args) {
+
+		int x = 1;
+		while (x <= 10) {
+			System.out.println(x);
+			if (x % 7 == 0) {
+				System.out.println("bye, see you tomorrow");
+				break;
+			}
+		}
+
+	}
+
+}
