@@ -19,7 +19,6 @@ public class ReverseInt {
 
 	public static void main(String[] args) {
 		int[] input = { 56789, 12345 };
-		
 
 		for (int i = 0; i < input.length; i++) {
 			input[i] = reverse(input[i]);
@@ -27,7 +26,7 @@ public class ReverseInt {
 
 		// print result
 		for (int i = 0; i < input.length; i++) {
-		    System.out.print(input[i] + " ");
+			System.out.print(input[i] + " ");
 		}
 
 	}
