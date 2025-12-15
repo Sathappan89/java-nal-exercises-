@@ -12,8 +12,6 @@ public class ProgramNine {
 		for(int i=0;i<sp.length;i++) {
 			System.out.println(sp[i]);
 		}
-		
-	
 	}
 
 	public static void main(String[] args) {
